@@ -2,16 +2,14 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: Your Awesome Site
-email: your-email@domain.com
-author: Your Name
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
-  description.
-copyright: 'Copyright &copy; 2015 Your Name. All Rights Reserved.'
-credits: 'Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.'
+url: http://sementeurbana.com
+title: Semente Urbana
+email: joejvogel@gmail.com
+author: Joe Vogel
+description: > 
+  Semeando um novo futuro. A Semente Urbana visa prover soluções físicas e digitais necessárias para abastecer suas comunidades de produtos frescos todo o ano além de capacitar indivíduos e organizações para tornar este processo o mais produtivo possível.
+copyright: 'Copyright &copy; 2018 Semente Urbana. All Rights Reserved.'
+credits: 
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -26,9 +24,7 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: twitter
-    url: https://twitter.com/SBootstrap
-  - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
-  - title: linkedin
+  - title: Facebook
+    url: 
+  - title: Twitter
     url: 

@@ -1,0 +1,8 @@
+---
+layout: default
+img: dashboard.png
+category: Services
+title: Semente Urbana App
+description: 
+---
+Permite que você controle, veja o desempenho e receba alertas para quaisquer alterações em sua fazenda remotamente. 
