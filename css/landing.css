@@ -954,6 +954,11 @@ pre code {
 }
 
 @media (min-width: 576px) {
+    #product1-logo {
+        max-width: 300px;
+        height: auto;
+    }
+
     .col-sm {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;
