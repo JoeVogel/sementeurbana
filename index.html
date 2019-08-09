@@ -16,6 +16,8 @@
       content="fazendas verticais, fazenda vertical, zero agrotóxico, cultivo indoor, vegetais frescos, farm to table, cultivo local"
     />
 
+    <link rel="shortcut icon" href="./img/favicon.png" />
+
     <title>Semente Urbana</title>
 
     <!-- Custom fonts for this theme -->
@@ -66,22 +68,22 @@
             <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#portfolio"
-                >Portfolio</a
+                href="#product"
+                >super folhinhas</a
               >
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                href="#about"
-                >Sobre</a
+                href="#method"
+                >nosso diferencial</a
               >
             </li>
             <li class="nav-item mx-0 mx-lg-1">
               <a
                 class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                 href="#contact"
-                >Contato</a
+                >contato</a
               >
             </li>
           </ul>
@@ -92,8 +94,18 @@
     <!-- Masthead -->
     <header class="masthead bg-primary text-white text-center">
       <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto" src="img/logo.png" alt="" />
-        <hr class="star-light" />
+        <img class="img-fluid mb-5 d-block mx-auto" id="main-logo" src="img/logo.png" alt="" />
+        
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-secondary">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fab fa-envira"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+
         <h2 class="font-weight-light text-secondary mb-0">
           Semeando um novo futuro!
         </h2>
@@ -101,79 +113,131 @@
     </header>
 
     <!-- Introdution Section -->
-    <section class="page-section portfolio" id="portfolio">
+    <section class="page-section product" id="product">
       <div class="container">
-        <!-- Portfolio Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          Portfolio
-        </h2>
+        <!-- product Section Heading -->
+        <!-- <h2 class="page-section-heading text-center text-uppercase">
+          super folhinhas
+        </h2> -->
+        <img class="img-fluid mb-5 d-block mx-auto" id="product1-logo" src="./img/superfolhinhas.png" />
 
         <!-- Icon Divider -->
-        <div class="divider-custom divider-light">
+        <div class="divider-custom divider-secondary">
           <div class="divider-custom-line"></div>
           <div class="divider-custom-icon">
-            <i class="fas fa-star"></i>
-          </div>
-          <div class="divider-custom-line"></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="page-section bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <!-- About Section Heading -->
-        <h2 class="page-section-heading text-center text-uppercase text-white">
-          Sobre
-        </h2>
-
-        <!-- Icon Divider -->
-        <div class="divider-custom divider-light">
-          <div class="divider-custom-line"></div>
-          <div class="divider-custom-icon">
-            <i class="fas fa-star"></i>
+            <i class="fab fa-envira"></i>
           </div>
           <div class="divider-custom-line"></div>
         </div>
 
-        <!-- About Section Content -->
+        <!-- Product Section Content -->
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-              luctus, felis in tempor placerat, ipsum ligula interdum urna, sit
-              amet pulvinar dolor neque vel arcu. Quisque non pulvinar libero.
-              Vestibulum congue libero non urna dignissim pellentesque. Nulla et
-              magna imperdiet, porttitor nisi consequat, tincidunt leo. Nullam
-              neque augue, malesuada quis eros et, egestas efficitur nisi.
-              Curabitur rutrum in ex non sodales. Quisque tempus arcu in
-              convallis rhoncus. Integer blandit ullamcorper elementum.
-              Suspendisse id bibendum ipsum, et venenatis nibh. Morbi ac dolor
-              justo. Nam posuere odio ac est imperdiet, a porta quam suscipit.
-            </p>
+          <div class="col-lg-6 ml-auto">
+
+            <ul class="list-group">
+              <li class="list-group-item borderless">
+                <img src="./img/favicon.png" class="rounded float-left mr-3" alt="" />
+                Baby Leaf de alto valor nutritivo
+              </li>
+              <li class="list-group-item borderless">
+                <img src="./img/favicon.png" class="rounded float-left mr-3" alt="" />
+                ZERO agrotóxico
+              </li>
+              <li class="list-group-item borderless">
+                <img src="./img/favicon.png" class="rounded float-left mr-3" alt="" />
+                Produzidas com 95% de redução no consumo de água
+              </li>
+              <li class="list-group-item borderless">
+                <img src="./img/favicon.png" class="rounded float-left mr-3" alt="" />
+                Embalagens feitas com materias sustentáveis
+              </li>
+              <li class="list-group-item borderless">
+                <img src="./img/favicon.png" class="rounded float-left mr-3" alt="" />
+                Entregues em embalagem retornável feitas de material reutilizado
+              </li>
+            </ul>
+
           </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">
-              Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-              consectetur, adipisci velit...
+          <div class="col-lg-6 mr-auto">
+
+            <h5>O que são "Baby Leaf"?</h5>
+            <p class="bt-2">
+              São plantas colhidas ainda jovens. Ricas em nutrientes, práticas, saborosas e macias.
             </p>
           </div>
         </div>
 
-        <!-- About Section Button -->
-        <div class="text-center mt-4">
-          <!-- <a
-            class="btn btn-xl btn-outline-light"
-            href="https://startbootstrap.com/themes/freelancer/"
-          >
-            <i class="fas fa-download mr-2"></i>
-            Free Download!
-          </a> -->
-        </div>
       </div>
     </section>
 
-    <!-- Footer -->
+    <!-- Method Section -->
+    <section class="page-section bg-primary mb-0" id="method">
+      <div class="container">
+        <!-- Method Section Heading -->
+        <h2 class="page-section-heading text-center text-uppercase">
+          Nosso diferencial
+        </h2>
+
+        <!-- Icon Divider -->
+        <div class="divider-custom divider-secondary">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon">
+            <i class="fab fa-envira"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+
+        <!-- Method Section Content -->
+        <div class="row">
+            <p class="lead">
+              Atualmente, 70% da água potável do planeta é utilizada nos processos de agricultura.
+Nesse ritmo, não teremos água suficiente nas próximas décadas.
+Como podemos contribuir para reparar isso?
+            </p>
+            <p class="lead">
+              As fazendas verticais da Semente Urbana possuem um ambiente ideal para o desenvolvimento de cada planta com reaproveitamento de água.
+Desta forma nossa folhosas recebem um tratamento especial com todos os nutrientes necessários para o seu crescimento.
+Essa forma de cultivo sustentável entrega um vegetal sem agrotóxicos, rico em nutrientes e extremamente saboroso.
+
+            </p>
+        </div>  
+
+        <div class="row">
+          <div class="col-lg-3 ml-auto">
+            <img src="./img/GotaAgua.png" class="rounded mx-auto d-block differential-item" alt="" />
+            <h5 class="text-center">Economia de Água</h5>
+            <p class="text-center">
+              Economia de até 95% de água em relação à agricultura tradicional!
+            </p>
+          </div>
+          <div class="col-lg-3 ml-auto">
+            <img src="./img/EspacoReduzido.png" class="rounded differential-item" alt="" />
+            <h5>Menos espaço</h5>
+            <p>
+              Redução de até 90% da área necessária pelo cultivo padrão.
+            </p>
+          </div>
+          <div class="col-lg-3 ml-auto">
+            <img src="./img/watch.png" class="rounded differential-item" alt="" />
+            <h5>Cultivo mais rápido</h5>
+            <p>
+              Como controlamos o clima, conseguimos garantir a qualidade das nossas folhosas em qualquer época do ano.
+            </p>
+          </div>
+          <div class="col-lg-3 mr-auto">
+            <img src="./img/ZeroAgrotoxico.png" class="rounded differential-item" alt="" />
+            <h5>ZERO agrotóxico</h5>
+            <p>
+              Plantas cultivadas sem o uso de agrotóxicos ou pesticidas durante todas as fases do processo.
+
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Footer -->   
     <footer class="footer bg-secondary text-center">
       <div class="container">
         <div class="row">
