@@ -11876,6 +11876,11 @@ a.text-dark:focus {
     height: auto;
 }
 
+.news-item-img {
+    max-width: 300px;
+    height: auto;
+}
+
 li.borderless { 
     border: 0 none; 
 }
