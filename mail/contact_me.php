@@ -10,8 +10,7 @@ $name = strip_tags(htmlspecialchars($_POST['name']));
 $email = strip_tags(htmlspecialchars($_POST['email']));
 
 // Create the email and send the message
-// $to = "contato@sementeurbana.com";
-$to = "joejvogel@gmail.com";
+$to = "contato@sementeurbana.com";
 $subject = "Novo contato recebido:  $name";
 $body = "Você recebeu uma nova mensagem do site Semente Urbana.\n\n"."Estes são os detalhes do contato:\n\Nome: $name\n\nE-mail: $email";
 $header = "From: site@sementeurbana.com\n";
