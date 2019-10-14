@@ -2969,8 +2969,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #1e2b37;
-    border-color: #1a252f;
+    background-color: #051900;
+    border-color: #051900;
 }
 
 .btn-secondary:focus,
@@ -7575,7 +7575,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-    border-color: #c3de00 !important;
+    border-color: #add285 !important;
 }
 
 .border-secondary {
@@ -11956,4 +11956,134 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
     background-color: #051900;
+}
+
+.progress {
+    background-color: #38630e;
+    border-color: #051900;
+}
+
+.progress-bar {
+    transition: width ease-in 250ms;
+    background-color: #051900;
+}
+
+.progress-color {
+    background-color: #051900;
+}
+
+.to-do-color {
+    background-color: #38630e;
+}
+
+#progress-mark {
+    height: 35px;
+    width: auto;
+    margin-top: -5px;
+}
+
+.milestone-one,
+.milestone-two,
+.milestone-three,
+.milestone-four,
+.milestone-five {
+    position: absolute;
+    margin-top: -7px;
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+
+}
+
+.milestone-one,
+.label-one {
+    left: -1%;
+}
+
+.milestone-two,
+.label-two {
+    left: 25%;
+}
+
+.milestone-three,
+.label-three {
+    left: 49%;
+}
+
+.milestone-four,
+.label-four {
+    left: 73%;
+}
+
+.milestone-five,
+.label-five {
+    left: 97%;
+}
+
+.milestone-selected {
+    position: absolute;
+    margin-top: -7px;
+    z-index: 1;
+    height: 30px;
+    width: 30px;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.label-one,
+.label-two,
+.label-three,
+.label-four,
+.label-five {
+    margin-top: 3rem;
+    position: relative;
+}
+
+.label-one {
+    margin-left: -0.2rem;
+}
+
+.label-two {
+    margin-left: -1.6rem;
+}
+
+.label-three {
+    margin-left: -3.6rem;
+}
+
+.label-four {
+    margin-left: -2.4rem;
+}
+
+.label-five {
+    margin-left: -4.3rem;
+}
+
+.selected-label {
+    margin-top: 1.15rem !important;
+}
+
+@media (max-width: 768px) {
+
+    .progress-group {
+        /* padding-left: 4rem; */
+        margin: 0 auto
+    }
+
+    .label-one,
+    .label-two,
+    .label-three,
+    .label-four,
+    .label-five {
+        visibility: hidden;
+    }
+
+    .selected-label {
+        visibility: visible !important;
+    }
+}
+
+.card {
+    border-color: ;
 }
