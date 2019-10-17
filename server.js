@@ -20,7 +20,6 @@ app.get('/', function (req, res) {
 app.post('/api/contact', function (req, res) {
 
     let transporter = nodemailer.createTransport({
-        service: 'Godaddy',
         host: 'smtp.office365.com',
         port: 587,
         secureConnection: true,
