@@ -1,6 +1,8 @@
 $(document).ready(function () {
     "use strict"; // Start of use strict
 
+    $('#success').hide()
+
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -69,18 +71,12 @@ $(document).ready(function () {
         $("#subscribe").prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
 
         $.ajax({
-            url: "./mail/contact_me.php",
+            url: window.location.origin + "/api/contact",
             type: "POST",
-            crossDomain: true,
-            headers: {
-                accept: "application/json",
-                "Access-Control-Allow-Origin": "*"
-            },
             data: {
                 name: name,
                 email: email
             },
-            cache: false,
             success: function () {
                 $('#success').html("<strong>Muito obrigado! Entraremos em contato em breve.</strong>");
             },
