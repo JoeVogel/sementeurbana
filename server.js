@@ -20,9 +20,10 @@ app.get('/', function (req, res) {
 app.post('/api/contact', function (req, res) {
 
     let transporter = nodemailer.createTransport({
+        service: 'Godaddy',
         host: 'smtpout.secureserver.net',
         port: 465,
-        secure: true,
+        secureConnection: true,
         auth: {
             user: process.env.USER_MAIL,
             pass: process.env.MAIL_PASS
@@ -30,9 +31,10 @@ app.post('/api/contact', function (req, res) {
     })
 
     let mailOptions = {
+        from: 'no_reply@sementeurbana.com',
         to: 'contato@sementeurbana.com',
         subject: 'Novo contato no SITE SU - ' + req.body.name,
-        body: 'Um novo contato foi feito via site! \n\nDados do contato.\n\nNome: ' + req.body.name + '\nE-mail: ' + req.body.mail
+        html: '<body><h5>Um novo contato foi feito via site!<h5> <p><strong>Dados do contato:</strong></p><p>Nome: ' + req.body.name + '<br>E-mail: ' + req.body.mail + '</p></body>'
     }
 
     transporter.sendMail(mailOptions, (error, info) => {
