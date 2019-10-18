@@ -49,6 +49,7 @@ app.post('/api/contact', function (req, res) {
         if (error) {
             console.log(error)
             res.status(500).send('Error sending e-mail')
+            return
         }
 
         console.log('Message %s sent: %s', info.messageId, info.response)
