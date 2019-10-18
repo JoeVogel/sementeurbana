@@ -67,6 +67,7 @@ $(document).ready(function () {
         // get values from FORM
         var name = $("input#name").val();
         var email = $("input#email").val();
+        var phone = $("input#phone").val();
 
         $("#subscribe").prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
 
@@ -75,6 +76,7 @@ $(document).ready(function () {
             type: "POST",
             data: {
                 name: name,
+                phone: phone,
                 email: email
             },
             success: function () {

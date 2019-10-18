@@ -40,8 +40,8 @@ app.post('/api/contact', function (req, res) {
     let mailOptions = {
         from: 'no_reply@sementeurbana.com',
         to: 'contato@sementeurbana.com',
-        subject: 'Novo contato no SITE SU - ' + req.body.name,
-        html: '<body><h5>Um novo contato foi feito via site!<h5> <p><strong>Dados do contato:</strong></p><p>Nome: ' + req.body.name + '<br>E-mail: ' + req.body.email + '</p></body>'
+        subject: 'Semente Urbana - Novo contato no SITE - ' + req.body.name,
+        html: '<body><h5>Um novo contato foi feito via site!<h5> <p><strong>Dados do contato:</strong></p><p>Nome: ' + req.body.name + '<br>Telefone: ' + req.body.phone + '<br>E-mail: ' + req.body.email + '</p></body>'
     }
 
     transporter.sendMail(mailOptions, (error, info) => {
