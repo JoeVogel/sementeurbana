@@ -20,10 +20,6 @@ let transporter = nodemailer.createTransport({
     auth: {
         user: process.env.USER_MAIL,
         pass: process.env.MAIL_PASS
-    },
-    tls: {
-        // do not fail on invalid certs
-        rejectUnauthorized: false
     }
 })
 
@@ -40,9 +36,6 @@ app.get('/', function (req, res) {
 })
 
 app.post('/api/contact', function (req, res) {
-
-    // host: "smtpout.secureserver.net",
-    // port: 587,
 
     let mailOptions = {
         from: 'no_reply@sementeurbana.com',
@@ -64,8 +57,6 @@ app.post('/api/contact', function (req, res) {
     })
 
 })
-
-
 
 app.listen(port, function () {
     console.log('Site Institucional está rodando na porta ' + port)
