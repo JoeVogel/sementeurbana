@@ -23,12 +23,12 @@ app.post('/api/contact', function (req, res) {
         service: 'Godaddy',
         host: "smtpout.secureserver.net",
         secureConnection: true,
-        port: 465,
+        port: 587,
         auth: {
             user: process.env.USER_MAIL,
             pass: process.env.MAIL_PASS
         }
-    })
+    }) //ou porta 587
 
     let mailOptions = {
         from: 'no_reply@sementeurbana.com',
