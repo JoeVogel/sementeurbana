@@ -11857,7 +11857,7 @@ a.text-dark:focus {
 
 @media (min-width: 992px) {
     .masthead {
-        padding-top: calc(6rem + 104px);
+        padding-top: calc(6rem + 94px);
         padding-bottom: 6rem;
     }
 
