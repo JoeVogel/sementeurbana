@@ -952,10 +952,10 @@ pre code {
 }
 
 @media (min-width: 576px) {
-    #product1-logo {
+    /* #product1-logo {
         max-width: 300px;
         height: auto;
-    }
+    } */
 
     .col-sm {
         -ms-flex-preferred-size: 0;
@@ -4725,7 +4725,7 @@ input[type="button"].btn-block {
 
 .nav-link {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.6rem;
 }
 
 .nav-link:hover,
@@ -11889,8 +11889,16 @@ li.borderless {
     border: 0 none;
 }
 
-.product {
-    margin-bottom: -30px;
+#food {
+    background-image: url("../img/site001.jpg");
+    
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
