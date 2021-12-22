@@ -4,7 +4,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 let app = express()
-let port = 80
+let port = 3000
 
 app.use(express.static(__dirname + '/dist'))
 app.use(bodyParser.urlencoded({
